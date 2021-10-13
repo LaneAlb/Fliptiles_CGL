@@ -1,0 +1,19 @@
+{
+  "name": "crisp-game-lib",
+  "version": "1.0.0",
+  "description": "Develop one game within one hour",
+  "scripts": {
+    "watch_games": "light-server -s docs -w \"docs/**/* # # reload\"",
+    "watch_lib": "rollup -c -w"
+  },
+  "author": "abagames",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pixi.js": "^5.0.0",
+    "light-server": "^2.7.0",
+    "rollup": "^2.17.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.5"
+  }
+}
